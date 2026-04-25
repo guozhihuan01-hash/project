@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: depth_camera_filtering
+Version: 0.1
+Summary: Depth Camera Filtering
+Home-page: https://github.com/naokiyokoyama/depth_camera_filtering
+Author: Naoki Yokoyama
+Author-email: naokiyokoyama@github
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: summary

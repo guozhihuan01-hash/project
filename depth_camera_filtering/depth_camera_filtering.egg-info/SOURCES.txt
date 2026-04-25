@@ -1,0 +1,8 @@
+README.md
+setup.py
+depth_camera_filtering/__init__.py
+depth_camera_filtering/filtering.py
+depth_camera_filtering.egg-info/PKG-INFO
+depth_camera_filtering.egg-info/SOURCES.txt
+depth_camera_filtering.egg-info/dependency_links.txt
+depth_camera_filtering.egg-info/top_level.txt
