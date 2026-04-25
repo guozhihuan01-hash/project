@@ -1,0 +1,32 @@
+{
+  "chair": {
+    "related": ["table", "desk", "sofa", "couch", "dining table"],
+    "room": "everywhere",
+    "fusion_threshold": 0.55
+  },
+  "bed": {
+    "related": ["pillow", "blanket", "nightstand", "lamp"],
+    "room": "bedroom",
+    "fusion_threshold": 0.60
+  },
+  "toilet": {
+    "related": ["sink", "bathtub", "mirror", "towel"],
+    "room": "bathroom",
+    "fusion_threshold": 0.65
+  },
+  "microwave": {
+    "related": ["oven", "refrigerator", "sink", "cabinet"],
+    "room": "kitchen",
+    "fusion_threshold": 0.62
+  },
+  "tv": {
+    "related": ["sofa", "couch", "table", "speaker"],
+    "room": "living room",
+    "fusion_threshold": 0.58
+  },
+  "potted plant": {
+    "related": ["table", "window", "shelf"],
+    "room": "everywhere",
+    "fusion_threshold": 0.52
+  }
+}

@@ -1,0 +1,42 @@
+# PlanningConf:
+#   percentile_exploitation: 99.0  # in percents [in navigator.py]
+#   frontier_depth: 2.5  # in meters  [in navigator.py]
+#   no_nav_radius: 0.9 # in meters  [in navigator.py]
+# #  yolo_confidence: 0.5 # [in yolo_world_detector.py]
+#   yolo_confidence: 0.8 # [in yolo_world_detector.py]
+#   filter_detections_depth: False # [in navigator.py]
+#   consensus_filtering: True # [in navigator.py]  # For ablation. If set to false, the consensus filtering (CF) is disabled
+#   allow_replan: True # [in navigator.py]
+#   use_frontiers: True # [in navigator.py]
+#   allow_far_plan: False # [in navigator.py]
+#   using_ov: False # [in navigator.py]
+#   max_detect_distance: 0.8 # [in navigator.py]
+#   obstcl_kernel_size: 0.5 # [in navigator.py]
+#   min_goal_dist: 0.7 # [in navigator.py]
+
+PlanningConf:
+  percentile_exploitation: 99.0
+  frontier_depth: 2.5
+  no_nav_radius: 0.9
+  yolo_confidence: 0.8
+  filter_detections_depth: False
+  consensus_filtering: True
+  allow_replan: True
+  use_frontiers: True
+  allow_far_plan: False
+  using_ov: False
+  max_detect_distance: 0.8
+  obstcl_kernel_size: 0.5
+  min_goal_dist: 0.7
+
+  # ApexNav fusion
+  use_apex_fusion: True
+  related_classes_topk: 6
+  semantic_std_thresh: 0.08
+  semantic_peak_ratio_thresh: 1.35
+  semantic_frontier_weight: 1.25
+  geometry_frontier_weight: 0.75
+  semantic_cluster_bonus: 1.15
+  related_object_weight: 0.35
+  room_prior_weight: 0.15
+  semantic_prior_path: "config/semantic_priors.json"

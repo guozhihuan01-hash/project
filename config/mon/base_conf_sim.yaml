@@ -1,0 +1,21 @@
+####################################
+# Base Config for Habitat Simulation
+####################################
+EvalConf:
+  controller: HabitatControllerConf
+  log_rerun: True
+  multi_object: False
+  is_gibson: False
+  use_pointnav: False
+  square_im: False
+
+  max_steps: 500
+  max_dist: 30.0
+  object_nav_path: "datasets/objectnav_hm3d_v1/val/content/"
+  scene_path: "datasets/scene_datasets/"
+
+config: [
+  ./controller_habitat.yaml,
+  ./mapping_conf_sim.yaml,
+  ./planning_conf.yaml
+]
